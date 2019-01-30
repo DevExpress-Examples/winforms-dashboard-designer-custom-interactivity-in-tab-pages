@@ -69,7 +69,7 @@
     </TabContainer>
     <Grid ComponentName="gridDashboardItem1" Name="Top 5 Products" ParentContainer="dashboardTabPage1" DataSource="dashboardExtractDataSource1">
       <DataItems>
-        <Dimension DataMember="ProductName" TopNEnabled="true" TopNShowOthers="true" TopNMeasure="DataItem1" DefaultId="DataItem0" />
+        <Dimension DataMember="ProductName" TopNEnabled="true" TopNMeasure="DataItem1" DefaultId="DataItem0" />
         <Measure DataMember="Extended Price" DefaultId="DataItem1" />
       </DataItems>
       <GridColumns>
@@ -84,7 +84,7 @@
     </Grid>
     <Grid ComponentName="gridDashboardItem2" Name="Bottom 5 Products" ParentContainer="dashboardTabPage2" DataSource="dashboardExtractDataSource1">
       <DataItems>
-        <Dimension DataMember="ProductName" TopNEnabled="true" TopNShowOthers="true" TopNMode="Bottom" TopNMeasure="DataItem1" DefaultId="DataItem0" />
+        <Dimension DataMember="ProductName" TopNEnabled="true" TopNMode="Bottom" TopNMeasure="DataItem1" DefaultId="DataItem0" />
         <Measure DataMember="Extended Price" DefaultId="DataItem1" />
       </DataItems>
       <GridColumns>
@@ -97,7 +97,7 @@
       </GridColumns>
       <GridOptions />
     </Grid>
-    <Chart ComponentName="chartDashboardItem1" Name="Ext Price by Months" DataSource="dashboardExtractDataSource1" FilterString="StartsWith([DataItem2], ?Parameter1)">
+    <Chart ComponentName="chartDashboardItem1" Name="Ext Price by Month" DataSource="dashboardExtractDataSource1" FilterString="StartsWith([DataItem2], ?Parameter1)">
       <InteractivityOptions MasterFilterMode="Multiple" />
       <DataItems>
         <Measure DataMember="Extended Price" DefaultId="DataItem0" />

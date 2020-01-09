@@ -3,7 +3,7 @@
   <Title Text="Dashboard" />
   <DataSources>
     <ExtractFileDataSource ComponentName="dashboardExtractDataSource1" Name="Extract Data Source 1">
-      <FileName>C:\Data\SalesPerson.dat</FileName>
+      <FileName>SalesPerson.dat</FileName>
       <Parameters />
       <SavedSchema>
         <Column>

@@ -24,7 +24,7 @@
 		''' </summary>
 		Private Sub InitializeComponent()
 			Me.dashboardDesigner1 = New DevExpress.DashboardWin.DashboardDesigner()
-			CType(Me.dashboardDesigner1, System.ComponentModel.ISupportInitialize).BeginInit()
+			DirectCast(Me.dashboardDesigner1, System.ComponentModel.ISupportInitialize).BeginInit()
 			Me.SuspendLayout()
 			' 
 			' dashboardDesigner1
@@ -49,7 +49,7 @@
 			Me.Controls.Add(Me.dashboardDesigner1)
 			Me.Name = "Form1"
 			Me.Text = "Custom Interactivity Example"
-			CType(Me.dashboardDesigner1, System.ComponentModel.ISupportInitialize).EndInit()
+			DirectCast(Me.dashboardDesigner1, System.ComponentModel.ISupportInitialize).EndInit()
 			Me.ResumeLayout(False)
 
 		End Sub

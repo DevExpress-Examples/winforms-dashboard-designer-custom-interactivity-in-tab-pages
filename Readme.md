@@ -1,4 +1,4 @@
-# How to Use Dashboard Items in Tab Pages as Independent Master Filters
+# Dashboard for WinForms - How to use dashboard items in tab pages as independent Master Filters
 
 This example demonstrates how to implement a custom visual interactivity that enables the [Grid](https://docs.devexpress.com/Dashboard/15150) dashboard items placed in different tab pages to act as independent master filters.
 

@@ -1,3 +1,9 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [Form1.cs](./CS/CustomInteractivityExample/Form1.cs)
+<!-- default file list end -->
+
 # Dashboard for WinForms - How to use dashboard items in tab pages as independent Master Filters
 
 This example demonstrates how to implement a custom visual interactivity that enables the [Grid](https://docs.devexpress.com/Dashboard/15150) dashboard items placed in different tab pages to act as independent master filters.
@@ -20,3 +26,8 @@ The example uses the following API:
 - [Master Filtering](https://docs.devexpress.com/Dashboard/116912)
 - [Interactivity](https://docs.devexpress.com/Dashboard/116692)
 - [Tab Container](https://docs.devexpress.com/Dashboard/400237)
+
+## More Examples 
+
+- [Dashboard for WinForms - How to Initialize Master Filters in Dashboard Viewer](https://github.com/DevExpress-Examples/how-to-apply-default-filtering-to-master-filters-in-dashboardviewer-t329583)
+- [Dashboard for WinForms - How to Set Master Filter in Dashboard Viewer](https://github.com/DevExpress-Examples/how-to-apply-master-filtering-in-dashboardviewer-e5097)

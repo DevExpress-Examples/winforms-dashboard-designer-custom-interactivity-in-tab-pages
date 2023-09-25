@@ -3,13 +3,8 @@
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/T830471)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
-<!-- default file list -->
-*Files to look at*:
 
-* [Form1.cs](./CS/CustomInteractivityExample/Form1.cs)
-<!-- default file list end -->
-
-# Dashboard for WinForms - How to use dashboard items in tab pages as independent Master Filters
+# Dashboard for WinForms - How to Use Dashboard Items in Tab Pages as Independent Master Filters
 
 This example demonstrates how to implement a custom visual interactivity that enables the [Grid](https://docs.devexpress.com/Dashboard/15150) dashboard items placed in different tab pages to act as independent master filters.
 
@@ -24,6 +19,10 @@ The example uses the following API:
 * The [DashboardDesigner.ConfigureDataConnection](https://docs.devexpress.com/Dashboard/DevExpress.DashboardWin.DashboardDesigner.ConfigureDataConnection) event specifies the [Extract Data Source](https://docs.devexpress.com/Dashboard/115900) file location at runtime.
 
 ![screenshot](./images/screenshot.png)
+
+## Files to Review
+
+* [Form1.cs](./CS/CustomInteractivityExample/Form1.cs) / [Form1.vb](./VB/CustomInteractivityExample/Form1.vb)
 
 ## Documentation
 

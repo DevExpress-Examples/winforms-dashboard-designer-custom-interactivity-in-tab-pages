@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -7,10 +7,9 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{4A440A69-C619-47F1-9BA2-1D48BEE9D279}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>
-    </RootNamespace>
+    <RootNamespace></RootNamespace>
     <AssemblyName>CustomInteractivityExample</AssemblyName>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
@@ -36,40 +35,43 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="DevExpress.Charts.v18.2.Core" />
-    <Reference Include="DevExpress.Dashboard.v18.2.Core" />
-    <Reference Include="DevExpress.Dashboard.v18.2.Win" />
-    <Reference Include="DevExpress.Data.v18.2" />
-    <Reference Include="DevExpress.DataAccess.v18.2" />
-    <Reference Include="DevExpress.DataAccess.v18.2.UI" />
-    <Reference Include="DevExpress.Map.v18.2.Core" />
-    <Reference Include="DevExpress.Office.v18.2.Core" />
-    <Reference Include="DevExpress.PivotGrid.v18.2.Core" />
-    <Reference Include="DevExpress.Printing.v18.2.Core" />
-    <Reference Include="DevExpress.RichEdit.v18.2.Core" />
-    <Reference Include="DevExpress.Sparkline.v18.2.Core" />
-    <Reference Include="DevExpress.TreeMap.v18.2.Core" />
-    <Reference Include="DevExpress.Utils.v18.2" />
-    <Reference Include="DevExpress.Utils.v18.2.UI" />
-    <Reference Include="DevExpress.Xpo.v18.2" />
-    <Reference Include="DevExpress.XtraBars.v18.2" />
-    <Reference Include="DevExpress.XtraCharts.v18.2" />
-    <Reference Include="DevExpress.XtraCharts.v18.2.UI" />
-    <Reference Include="DevExpress.XtraCharts.v18.2.Wizard" />
-    <Reference Include="DevExpress.XtraEditors.v18.2" />
-    <Reference Include="DevExpress.XtraGauges.v18.2.Core" />
-    <Reference Include="DevExpress.XtraGauges.v18.2.Presets" />
-    <Reference Include="DevExpress.XtraGauges.v18.2.Win" />
-    <Reference Include="DevExpress.XtraGrid.v18.2" />
-    <Reference Include="DevExpress.XtraLayout.v18.2" />
-    <Reference Include="DevExpress.XtraMap.v18.2" />
-    <Reference Include="DevExpress.XtraPivotGrid.v18.2" />
-    <Reference Include="DevExpress.XtraPrinting.v18.2" />
-    <Reference Include="DevExpress.CodeParser.v18.2" />
-    <Reference Include="DevExpress.XtraReports.v18.2" />
-    <Reference Include="DevExpress.XtraRichEdit.v18.2" />
-    <Reference Include="DevExpress.XtraTreeList.v18.2" />
-    <Reference Include="DevExpress.XtraTreeMap.v18.2" />
+    <Reference Include="DevExpress.Charts.v24.2.Core" />
+    <Reference Include="DevExpress.Dashboard.v24.2.Core" />
+    <Reference Include="DevExpress.Dashboard.v24.2.Win" />
+    <Reference Include="DevExpress.Drawing.v24.2" />
+    <Reference Include="DevExpress.Data.v24.2" />
+    <Reference Include="DevExpress.DataAccess.v24.2" />
+    <Reference Include="DevExpress.DataAccess.v24.2.UI" />
+    <Reference Include="DevExpress.Map.v24.2.Core" />
+    <Reference Include="DevExpress.Office.v24.2.Core" />
+    <Reference Include="DevExpress.PivotGrid.v24.2.Core" />
+    <Reference Include="DevExpress.Printing.v24.2.Core" />
+    <Reference Include="DevExpress.RichEdit.v24.2.Core" />
+    <Reference Include="DevExpress.Sparkline.v24.2.Core" />
+    <Reference Include="DevExpress.TreeMap.v24.2.Core" />
+    <Reference Include="DevExpress.Data.Desktop.v24.2" />
+    <Reference Include="DevExpress.Utils.v24.2" />
+    <Reference Include="DevExpress.Utils.v24.2.UI" />
+    <Reference Include="DevExpress.Xpo.v24.2" />
+    <Reference Include="DevExpress.XtraBars.v24.2" />
+    <Reference Include="DevExpress.XtraCharts.v24.2" />
+    <Reference Include="DevExpress.XtraCharts.v24.2.UI" />
+    <Reference Include="DevExpress.XtraCharts.v24.2.Wizard" />
+    <Reference Include="DevExpress.XtraEditors.v24.2" />
+    <Reference Include="DevExpress.XtraGauges.v24.2.Core" />
+    <Reference Include="DevExpress.XtraGauges.v24.2.Presets" />
+    <Reference Include="DevExpress.XtraGauges.v24.2.Win" />
+    <Reference Include="DevExpress.XtraGrid.v24.2" />
+    <Reference Include="DevExpress.XtraLayout.v24.2" />
+    <Reference Include="DevExpress.XtraMap.v24.2" />
+    <Reference Include="DevExpress.XtraPivotGrid.v24.2" />
+    <Reference Include="DevExpress.XtraPrinting.v24.2" />
+    <Reference Include="DevExpress.CodeParser.v24.2" />
+    <Reference Include="DevExpress.XtraReports.v24.2" />
+    <Reference Include="DevExpress.XtraRichEdit.v24.2" />
+    <Reference Include="DevExpress.XtraTreeList.v24.2" />
+    <Reference Include="DevExpress.XtraTreeMap.v24.2.UI" />
+    <Reference Include="DevExpress.XtraTreeMap.v24.2" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
